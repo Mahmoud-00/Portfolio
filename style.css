@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
-/*hiiiiiiiii*/
+    /*hiiiiiiiii*/
 }
 
 .navbar {
@@ -10,7 +10,7 @@
     height: fit-content;
     background-color: aliceblue;
     position: sticky;
-    top:0px;
+    top: 0px;
     z-index: 1;
 }
 
@@ -21,61 +21,64 @@
     align-items: center;
     background-color: #6AA319;
 }
-.text-nav{
+
+.text-nav {
     color: #B9EFD4;
-    font-family: 'lato',sans-serif;
+    font-family: 'lato', sans-serif;
     padding-right: 50px;
-    
+
 }
 
 
 .icon {
     padding-left: 50px;
     font-size: 30px;
-    font-family: 'lato',sans-serif;
-    color:#B9EFD4
+    font-family: 'lato', sans-serif;
+    color: #B9EFD4
 }
 
 li {
     display: inline-block;
     padding: 20px;
-    
+
 }
+
 li:hover {
-    color:#005037;
+    color: #005037;
     background-color: transparent;
     border: 2px solid #005037;
-    
+
 }
 
-ul li a:hover{
+ul li a:hover {
     color: #005037;
-    
+
 
 }
-body{
+
+body {
     background-color: #B9EFD4;
 }
-    
-
-
-/*=============================================================*/ 
-
-                         /* Css Main */
-
-/*=============================================================*/ 
 
 
 
-.main{
-    width:100%;
-    background-color:#B9EFD4;
+/*=============================================================*/
+
+/* Css Main */
+
+/*=============================================================*/
+
+
+
+.main {
+    width: 100%;
+    background-color: #B9EFD4;
     background-position: center;
     background-size: cover;
     height: 109vh;
 
-    
-    
+
+
 }
 
 .man {
@@ -104,77 +107,80 @@ body{
     align-items: center;
     padding-right: 90px;
     color: #6AA319;
-    font-family: 'lato',sans-serif;
+    font-family: 'lato', sans-serif;
 
 }
 
-p.name3{
+p.name3 {
     font-size: 30px;
     color: #6AA319;
-    font-family: 'lato',sans-serif;
-    
+    font-family: 'lato', sans-serif;
+
 }
 
-.name2{
+.name2 {
     color: #6AA319;
-    font-family: 'lato',sans-serif;
-    
+    font-family: 'lato', sans-serif;
+
 }
-.about p{
+
+.about p {
     font-size: large;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
     color: #fff;
-    margin-right :600px;
+    margin-right: 600px;
     margin-left: 20px;
     align-content: center;
-    align-items:center;
-    padding-top: 10%;
+    align-items: center;
+    padding-top: 3%;
     letter-spacing: 2.5px;
     line-height: 1.8rem;
     font-size: 1rem;
     padding-left: 50px;
-    }
-
-    .about{
-    background: #005037;
-    height:auto;
-    width:auto;
 }
-    .image2{
-        width: 65%;
-        height: 65%;
-        display:flex;
-        left:60%;
-        position: absolute;
-        top: 120%;
-        
-    }
-    .fire{
-        font-size: x-large;
-        font-family:'lato',sans-serif;
-    }
-    
-    .water{
-        font-size: x-large;
-        font-family:'lato',sans-serif;
-    }
+
+.about {
+    background: #005037;
+    height: auto;
+    width: auto;
+}
+
+.image2 {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    left: 60%;
+    position: absolute;
+    top: 120%;
+
+}
+
+.fire {
+    font-size: x-large;
+    font-family: 'lato', sans-serif;
+}
+
+.water {
+    font-size: x-large;
+    font-family: 'lato', sans-serif;
+}
 
 
-    .aboutme{
-        font-size: 4.65rem;
-        position: absolute;
-        top:111%;
-        left: 10%;
-        color:#B9EFD4;
-        font-family:'lato',sans-serif ;
+.aboutme {
+    font-size: 4.65rem;
+    top: 111%;
+    left: 10%;
+    color: #B9EFD4;
+    font-family: 'lato', sans-serif;
+    padding-left: 71px;
+    padding-top: 20px;
+}
 
-    }
-    
 /*© 2023 Copyright Right Reserved (color) and all the footer font*/
-.contacti{
-    
-    padding-top: 50px;  
+.contacti {
+
+    padding-top: 50px;
     padding-bottom: 50px;
     line-height: 1.8rem;
     display: flex;
@@ -182,24 +188,25 @@ p.name3{
     align-items: center;
     justify-content: space-evenly;
     color: #005037;
-    font-family:'lato',sans-serif ;
+    font-family: 'lato', sans-serif;
     left: 1px;
 }
 
-.btn{
-    
+.btn {
+
     text-decoration: none;
     font-weight: bold;
     padding: 0.81rem 3.87rem;
     border-radius: 30px;
     transition: 0.2s;
-    border: 2px solid transparent;  
+    border: 2px solid transparent;
     background: #527e13;
-    
+
 
 }
-a{
-    color:#ffffff;
+
+a {
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -211,7 +218,7 @@ a{
 
 
 
-footer{
+footer {
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: #73a78d;
@@ -223,278 +230,84 @@ footer{
 
 /*Phone: 0592313414
 Email: mahmoud00@gmail.com (color)*/
-.foot{
+.foot {
     color: #005037;
     letter-spacing: spacing 1.8rem;
     line-height: 1.8rem;
     font-size: 1rem;
 }
 
-span{
+span {
     color: #527e13;
-    font-family:'lato',sans-serif ;
+    font-family: 'lato', sans-serif;
 }
 
 
-ul{
+ul {
     margin-bottom: 7%;
 }
 
-
-
-
-
-
-
-
-
-    /*.PageAbout{
-        display: flex;
-        flex-direction: row-reverse;
-        width: 100%;
-        justify-content: center;
-        padding-top: 30px;
-        align-items: center;
-    }*/
-
-
-
-
-
-
-
-
-
-
-
-/*.navbar{
-    height: 75px;
-    width: 1200px;
-    margin: auto;
+.words{
+    margin: 0;
+    padding:0;
 }
 
-.icon{
-    height:70px;
-    float:left;
-    width:200px;
-}
-
-.logo{
-float:left;
-font:Arial;
-font-size: 60px;
-color: #005037;
-padding-left: 20px;
-padding-top: 10px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-letter-spacing: normal;
-position: absolute;
-left:10%;
-top:20px;
-}*/
-/*
-.menu{
-    width:400px;
-    height: 77px;
-    float:right;
-    
-    
-}
-
-ul{
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 110px;
-    margin-top: 27px;
-    font-size: 14px;
-    
-}
-
-ul li a{
-    text-decoration: none;
-    color:#005037;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: larger;
-    transition: 0.4s  ease-in-out;
-    
-}
-
-
-ul li a:hover{
-    color:#4BAE48;
-}*/
-
-/*.content{
-    width: 1200px;
-    margin: auto;
-    height:auto;
-    color:#005037;
-    position:relative;
-    font-size: 15px;
-    padding-top: 100px;
-    margin-left :800px;
-}
-
-.content .par{
-    padding-bottom: 20px;
-    padding-left:  1px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height:30px;
-    color: #4BAE48;
-    
-}
-
-.content h1{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
-    padding-left: 20px;
-    margin-top:1%;
-    
-    padding-left:  1px;
-    font-size: 1.25rem;
-    letter-spacing: 0.12rem;
-}
-
-
-
-
-ion-icon {
-    font-size: 64px;
-    color: #ff7200;
-    margin:20px;
-    float:right;
-
-}
-
-
-iconify-icon{
-color:#ff7200;
-font-size: 64px;
-margin :20px;
-}
-
-.fa-brands fa-free-code-camp {
-    width:100;
-    height: 500;
-
-}
-
-fa-brands fa-free-code-camp fa-5x ul{
-    float: right;
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    margin-right:20px;
-    padding-right:20px;
-    
-
-}
-
-
-
-
-.about{
-    background: #005037;
-    height:681.25px;
-}
-.about p{
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: inherit;
-    color: #fff;
-    margin-right :600px;
-    margin-left: 20px;
-    align-content: center;
-    align-items:center;
-    padding-top: 10%;
+@media  (max-width: 800px){
+    html{
+        width:100%;
     }
-
-
-.service{
-    background: #B9EFD4;
-    height:681.25px;
+    body{
+        width:100%;
+    }
+.PageAbout{
+        width:100%;
+    }
+.bar{
+    width:100%;
 }
-
-
-
-
-.button1:hover{
-    color:#ff0000;
-    background-color: #fff;
-    
+p{
+    width: 100%;
+    font-size: 1rem;
     
 }
-.button2:hover{
-    color:#ff0000;
-    background-color: #fff;
-    
-    
+#about{
+    width:100%;
+}
+.image2{
+    display:none;
+}
+img{
+    width:100%;
+}
+footer{
+    width: 100%;
+}
+.words {
+    margin: 0;
+        padding-right: 84px;
 }
 
-.button3:hover{
-    color:#ff0000;
-    background-color: #fff;
-    
-    
-}
-
-
-
-
-
-.button1{
-    position:absolute;
-    right: 0px;
-    color:#000;
-    cursor:pointer;
-    background-color: gray;
-}
-
-
-.button2{
-    position:absolute;
-    right: 120px;
-    color:#000;
-    cursor:pointer;
-    background-color: gray;
-}
-
-.button3{
-    position:absolute;
-    right: 195px;
-    color:#000;
-    cursor:pointer;
-    background-color: gray;
+        .nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: #6AA319;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: space-between;
+            align-items: flex-start;
+        }
+                .icon {
+                    padding-left: 71px;
+                    font-size: 1.5rem;
+                    font-family: 'lato', sans-serif;
+                    color: #B9EFD4;
+                }
 }
 
 
 
-.s2{
-    position: absolute;
-    left:30%;
-    bottom: 0;
-    height: 80%;
-    transform: translateX(-60%);
-    transition: 0.4s;
-
-}
-.s3{
-    position: absolute;
-    right:0%;
-    bottom: 0;
-    height: 80%;
-    top:125%;
-    align-self: center;
-    
 
 
-}*/
+
 
